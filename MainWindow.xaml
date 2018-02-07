@@ -1,0 +1,23 @@
+<Window x:Class="U1_01_Keegan_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U1_01_Keegan_wpf"
+        mc:Ignorable="d"
+        Title="Touche" Height="350" Width="525">
+    <StackPanel>
+        <Label x:Name="lblOutput" 
+               Content="Hello world, My name is Keegan" 
+               FontStyle="Normal"
+               FontFamily="sans serif"
+               FontSize="30" Height="54" 
+               HorizontalAlignment="Right" 
+               Width="517"/>
+        <Button x:Name="btnClickMe"
+                Content="Click me"
+                Click="btnClickMe_Click"
+                FontSize="30"
+                Width="150"/>
+    </StackPanel>
+</Window>
